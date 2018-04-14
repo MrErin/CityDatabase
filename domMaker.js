@@ -61,6 +61,3 @@ const visitedDOMBuilder = (year) => {
 	)
 
 }
-
-
-// visitedDOMBuilder()
