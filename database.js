@@ -40,7 +40,7 @@ cityDatabase.cities.push(
 		cityStateCountry: 'England, UK', 
 		yearVisited: '2006', 
 		cityImage: './img/brighton.jpg', 
-		top5: ['West Pier', 'Royal Suspension Chain Pier', 'Victorian Sewers', 'Royal Pavillion', ''], 
+		top5: ['West Pier', 'Royal Suspension Chain Pier', 'Victorian Sewers', 'Royal Pavillion', 'Something Else'], 
 		continent: 'Europe'
 	},
 	{

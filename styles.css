@@ -1,5 +1,6 @@
 body {
     background-color: #1A1A1A;
+    font-family: Lato, sans-serif;
 }
 
 .wrapper{
@@ -45,12 +46,10 @@ section {
 
 .northAmerica {
     background: #174114;
+    color: lightgray
 }
 
 .europe {
     background: #F07E25;
-}
-
-.yearVisited{
-    color: lightgray;
+    color: #1A1A1A;
 }
