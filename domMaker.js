@@ -10,7 +10,6 @@ const visitedDOMBuilder = (year) => {
 			if (!year || year === currentCity.yearVisited) {
 				//section
 				const citySection = document.createElement('section')
-				citySection.classList += 'cityCard'
 
 				//apply classes based on continent
 				if (currentCity.continent === 'North America'){
@@ -19,14 +18,14 @@ const visitedDOMBuilder = (year) => {
 					citySection.classList += 'europe'
 				}
                 
-				//h2 city name
-				const cityDisplayName = document.createElement('h2')
+				//h1 city name
+				const cityDisplayName = document.createElement('h1')
 				cityDisplayName.classList += 'cityName'
 				cityDisplayName.textContent = currentCity.cityName
 				citySection.appendChild(cityDisplayName)
 
-				//h4 city state/country
-				const cityDisplayState = document.createElement('h4')
+				//h3 city state/country
+				const cityDisplayState = document.createElement('h3')
 				cityDisplayState.classList += 'cityStateCountry'
 				cityDisplayState.textContent = currentCity.cityStateCountry
 				citySection.appendChild(cityDisplayState)

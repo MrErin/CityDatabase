@@ -14,7 +14,7 @@ const yearFilter = () => {
 			article.removeChild(article.firstChild)
 		}
 	} 
-	//add city cards to the DOM
+	//add the requested city cards to the DOM
 	visitedDOMBuilder(selYear)
 	
 }
