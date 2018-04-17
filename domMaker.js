@@ -1,5 +1,6 @@
 //grabs the hook for the visited div in the HTML
 const visitedHook = document.querySelector('#visited')
+const fragment = document.createDocumentFragment()
 
 const visitedDOMBuilder = (year) => {
 	citiesDB.cities.forEach(
@@ -53,10 +54,10 @@ const visitedDOMBuilder = (year) => {
 				citySection.appendChild(top5ListDisplay)
 
 				//append city card to the DOM
-				visitedHook.appendChild(citySection)
+				fragment.appendChild(citySection)
 			}
 		}
 	
 	)
-
+	visitedHook.appendChild(fragment)
 }
